@@ -25,7 +25,6 @@ class CollectionViewController: UICollectionViewController {
            requestApi(url: mainUrl)
            collectionView.collectionViewLayout = columnLayout
            collectionView.contentInsetAdjustmentBehavior = .always
-           collectionView.register(UICollectionViewCell.self, forCellWithReuseIdentifier: "keywordCell")
            
        }
     
